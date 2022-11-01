@@ -1,0 +1,87 @@
+:root {
+    --text: #212121;
+    --text-light: #757575;
+    --background: #2F303A;
+    --highlighting: #2196F3;  
+    --dark-highlighting: #014379;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.logo {
+    font-family: "Raleway";
+    color: var(--highlighting);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.logo:hover {
+    color: var(--dark-highlighting)
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text)
+}
+
+.nav-link:hover {
+    color: var(--highlighting);
+}
+
+.contact {
+    text-decoration: none;
+    font-style: none;
+    color: var(--text-light)
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact:hover {
+    color: var(--highlighting);
+}
+
+.top-section {
+    width: 1600px;
+    height: 600px;
+    background-color: var(--background);
+}
+
+.solutions {
+    color: white;
+    width: 696px;
+    height: 120px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.request-button {
+    color: white;
+    background-color: var(--highlighting);
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+}
+
+.request-button:hover {
+    background-color: var(--dark-highlighting);
+}
+
+button {
+    cursor: pointer;
+}
