@@ -4,6 +4,7 @@
     --background: #2F303A;
     --highlighting: #2196F3;  
     --dark-highlighting: #014379;
+    --light-background: #F5F4FA;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
     color: var(--dark-highlighting)
 }
 
-ul {
+.ul-hide {
     list-style-type: none;
 }
 
@@ -47,9 +48,7 @@ ul {
     color: var(--highlighting);
 }
 
-.top-section {
-    width: 1600px;
-    height: 600px;
+.dark-background {
     background-color: var(--background);
 }
 
@@ -76,12 +75,116 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     text-align: center;
+    cursor: pointer;
+    border-width: 0px;
 }
 
 .request-button:hover {
     background-color: var(--dark-highlighting);
 }
 
-button {
-    cursor: pointer;
+.hide {
+    visibility: hidden;
+}
+
+.features-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-light);
+}
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: var(--text);
+}
+
+.light-background {
+    background-color: var(--light-background);
+}
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: var(--text);
+}
+
+.contact-card {
+    width: 270px;
+    height: 368px;
+    background-color: white;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--text);
+}
+
+.name-desc {
+    text-align: center;
+    color: var(--text-light);
+}
+
+.address {
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
+
+.address:hover {
+    color: var(--dark-highlighting);
+}
+
+.contact-bottom {
+    text-decoration: none;
+    font-style: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.contact-bottom:hover {
+    color: white;
+}
+
+.portfolio-button {
+    background-color: var(--light-background);
+    color: var(--text);
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.portfolio-button:hover {
+    background-color: var(--highlighting);
+    color: white;
+}
+
+.portfolio-card {
+    width: 370px;
+    height: 404px;
+}
+
+.portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--text);
+}
+
+.portfolio-name-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-light);
 }
