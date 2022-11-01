@@ -188,3 +188,7 @@ body {
     line-height: 1.88;
     color: var(--text-light);
 }
+
+.address-bottom {
+    font-style: normal;
+}
