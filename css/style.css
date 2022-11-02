@@ -9,6 +9,11 @@
     --light-background: #F5F4FA;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif; 
 }
