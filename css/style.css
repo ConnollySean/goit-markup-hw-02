@@ -195,11 +195,15 @@ ul {
 /* Our Portfolio */
 
 .portfolio-button {
-    background-color: var(--background-light-color);
+    font-family: 'Roboto';
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
+    letter-spacing: 0.06em;
     text-align: center;
+    cursor: pointer;
     color: var(--primary-title-color);
+    background-color: var(--background-light-color);
 }
 
 .portfolio-button:hover,
@@ -208,7 +212,7 @@ ul {
     color: var(--secondary-title-color);
 }
 
-.portfolio-card-title {
+.portolio-card-title {
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
@@ -222,3 +226,5 @@ ul {
     line-height: calc(30/16);
     color: var(--secondary-text-color)
 }
+
+
